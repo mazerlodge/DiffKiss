@@ -2,6 +2,12 @@
 
 import sys
 
+
+
+if (len(sys.argv) < 3): 
+	print("Usage: diffkiss file1 file2")
+	exit() 
+
 inFile1 = open(sys.argv[1], "r")
 inFile2 = open(sys.argv[2], "r")
 
