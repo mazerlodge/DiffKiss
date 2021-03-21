@@ -1,2 +1,7 @@
 testing adding a file to git. 
 from within vs w/ https as remote
+third change after:
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+ssh-agent
+ssh-add
+git config --global core.sshCommand C:/Windows/System32/OpenSSH/ssh.exe
